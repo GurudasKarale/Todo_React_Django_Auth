@@ -1,0 +1,55 @@
+
+.addtodo {
+
+   padding: 6px;
+    
+  }
+
+
+  .addtodo label{
+
+   display: block;
+   color: #666;
+   font-size: 14px;
+   transform: 0.4s;
+   }
+
+   .addtodo:focus-within label{
+
+      color:#FE4880;
+  }
+
+  .addtodo input{
+
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   background-color: #eeededf1;
+   border-radius: 8px;
+   transition: 0.4s;
+
+}
+
+.addtodo input:focus{
+
+   box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+
+}
+
+.addtodo button{
+   display: inline-block;
+   padding: 5px 10px;
+   border-radius: 4px;
+   background-image: linear-gradient(to right,#FFCE00 50%,#FFCE00 50%,#FE4880);
+   background-size: 150%;
+   background-position: 0%;
+   transition: 0.4s;
+   color: #fff;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.addtodo button:hover{
+
+   background-position: 100% 0%;
+}

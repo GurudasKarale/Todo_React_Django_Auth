@@ -1,0 +1,56 @@
+.updateform {
+
+    display: flex;
+    /* flex-direction: column;             */
+    
+  }
+
+  .updateform button {
+   
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right,#FFCE00 50%,#FFCE00 50%,#a6ecb8);
+    background-size: 150%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+   }
+ 
+   .updateform button:hover{
+ 
+     background-position: 100% 0%;
+  }
+
+  .updateform label{
+
+    display: block;
+    color: #666;
+    font-size: 14px;
+    transform: 0.4s;
+    }
+ 
+    .updateform:focus-within label{
+ 
+       color:#FE4880;
+   }
+ 
+   .updateform input{
+ 
+    display: block;
+    width: 90%;
+    padding: 4px 8px;
+    background-color: #eeededf1;
+    border-radius: 4px;
+    transition: 0.4s;
+ 
+ }
+ 
+ .updateform input:focus{
+ 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+ 
+ }
+ 

@@ -1,0 +1,18 @@
+.deletetodo button {
+   
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right,#FFCE00 50%,#FFCE00 50%,#a6ecb8);
+    background-size: 150%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+   }
+ 
+   .deletetodo button:hover{
+ 
+     background-position: 100% 0%;
+  }

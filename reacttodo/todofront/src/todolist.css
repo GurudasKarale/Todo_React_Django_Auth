@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+    /* display: block; */
+  background: #fff;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.placeLogout {
+   
+    display: flex;
+    justify-content: right;
+  
+  }
+
+  .placeLogout button {
+   
+   display: inline-block;
+   padding: 3px 6px;
+   border-radius: 4px;
+   background-image: linear-gradient(to right,#FFCE00 50%,#FFCE00 50%,#a6ecb8);
+   background-size: 150%;
+   background-position: 0%;
+   transition: 0.4s;
+   color: #fff;
+   font-weight: 700;
+   cursor: pointer;
+  
+  }
+
+  .placeLogout button:hover{
+
+    background-position: 100% 0%;
+ }
+
+
+.Todo {
+  /* display: flex; */
+  align-items: center;
+
+}
+
+.EachItem {
+
+    display: flex;
+    /* flex-direction: column;             */
+    justify-content: space-between;
+    padding: 4px;
+    
+  }
+
+  .EachItem div {
+    padding: 2px;
+    
+  }
+
+  .todotitle{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+ 
