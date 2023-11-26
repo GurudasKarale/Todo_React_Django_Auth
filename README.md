@@ -3,7 +3,8 @@
 
 # Requirements  
 
-  Django              3.1.5  
+Python              3.7
+Django              3.1.5  
 django-cors-headers 3.7.0  
 django-rest-knox    4.1.0  
 djangorestframework 3.12.3  
