@@ -10,7 +10,7 @@ django-rest-knox    4.1.0
 djangorestframework 3.12.3  
 psycopg2            2.9.1  
 
-react               17.0.2
+React js            17.0.2
 
 # User Registration
 
