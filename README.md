@@ -9,6 +9,8 @@ django-rest-knox    4.1.0
 djangorestframework 3.12.3  
 psycopg2            2.9.1  
 
+react               17.0.2
+
 # User Registration
 
 https://github.com/GurudasKarale/Todo_React_Django_Auth/assets/67753744/dd23e286-4625-461d-af2e-d82e22da9fe9
