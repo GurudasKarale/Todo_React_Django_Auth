@@ -2,7 +2,8 @@
  Objective is to learn how authentication is handled both at the backend and frontend using Django and React respt.
 
 # Requirements  
-Django              3.1.5  
+
+  Django              3.1.5  
 django-cors-headers 3.7.0  
 django-rest-knox    4.1.0  
 djangorestframework 3.12.3  
