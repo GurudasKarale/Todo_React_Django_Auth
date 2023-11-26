@@ -1,7 +1,7 @@
 # Todo_React_Django_Auth
  Objective is to learn how authentication is handled both at the backend and frontend using Django and React respt.
 
-#Requirements  
+# Requirements  
 Django              3.1.5  
 django-cors-headers 3.7.0  
 django-rest-knox    4.1.0  
